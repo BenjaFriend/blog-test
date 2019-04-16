@@ -50,3 +50,6 @@ to a pretty high standard, and I knew that I could trust the quality of the libr
 
 So far Boost sounds like an awesome networking layer that I should use, but what
 problems could I run into using it in games?
+
+One of the biggest questions that I wanted to answer with this project was how
+using Boost would effect the threading model of an existing engine, or 
