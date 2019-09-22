@@ -16,7 +16,7 @@
 title: Ben Hoffman
 email: benjmain.hoffman.dev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Ben Hoffman -- Game Developer
+  Game Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "//benhoffman.tech"
 # the base hostname & protocol for your site, e.g. http://example.com
