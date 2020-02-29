@@ -10,14 +10,14 @@ categories:
   - tools
 ---
 
-```
-Disclaimer: This is not an official Epic Games document
-```
-
-## What is the Widget Reflector?
 The Widget Reflector is a tool in Unreal Engine that shows the you how 
 the editor UI is built with [Slate](https://docs.unrealengine.com/en-US/Programming/Slate/index.html),
 and allows you to jump straight to the source code that creates it. 
+
+
+```C++
+Disclaimer: This is not an official Epic Games document
+```
 
 ## How do I use it?
 
