@@ -8,6 +8,10 @@ categories:
   - aurumkings
   - General
 ---
+
+
+<img id="projectBanner" src="{{ site.url }}/media/AurumKings_banner_600x150.jpg"/>
+
 I am happy to announce that Aurum Kings has officially launched on Steam today!
 
 You can check it out on Steam <a href="https://store.steampowered.com/app/848460/Aurum_Kings/" target="_blank" rel="noopener">here!</a>

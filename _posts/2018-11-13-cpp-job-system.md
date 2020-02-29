@@ -151,9 +151,9 @@ One thing to watch out for here is the size of `std::future` and `std::promise`.
 It shouldn't really be a huge problem, but it is something to watch out for. On
 a 64-bit Ubuntu system:
 
-```
-Size of std::future<void>  : 16
-Size of std::promise<void> : 24
+```C++
+sizeof std::future<void>  : 16
+sizeof std::promise<void> : 24
 ```
 
 They are not huge objects but it is certainly something to be aware of if they
