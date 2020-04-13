@@ -5,7 +5,7 @@ For Ubuntu, use the following commands to install jekyll and ruby
 # Docker
 
 ```
-docker make . -t ben-web
+docker build . -t ben-web
 docker run ben-web
 ```
 
