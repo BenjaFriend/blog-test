@@ -22,7 +22,7 @@ layout: default
 
 <!-- Container Div that will have dynamically generated projects in it -->
 <div id="projects">
-  <h1>Experience</h1>
+  <h1>Professional Experience</h1>
   {% for project in site.data.projects %}
     <div id="projectInfo">
       <h2 id="projectTitle">{{ project.title }} {% if project.tools %}<span id="tools">({{ project.tools}})</span>{% endif %}</h2>
@@ -31,12 +31,14 @@ layout: default
 
       <p>{{ project.description }}</p>
 
-      <div id="projectLinks">
+      <div id="projectLinks" style="text-align: center;">
         {% if project.links %}
+        <p>
             {% for link in project.links %}
-                <p>- <a href={{ link.value }} target="_blank"> {{ link.name }} </a></p>
+              <a href={{ link.value }} target="_blank">{{ link.name }}</a>{% if link != project.links.last %}  |  {% endif %}
             {% endfor %}
         {% endif %}
+        </p>
       </div> <!-- End project links -->
 
     </div> <!-- End Project Info -->
@@ -46,16 +48,20 @@ layout: default
 
 <div id="otherInfo">
 
-<h1>Other Stuff About Me</h1>
+<h1>Personal Projects</h1>
 
-{% for item in site.data.otherStuff %}
+{% for item in site.data.personalProjects %}
   <div id="projectInfo">
     <h2 id="projectTitle">{{ item.title }} {% if item.tools %}<span id="tools">({{ item.tools}})</span> {% endif %}</h2>
 
     <img id="projectBanner" src={{ item.image }} />
 
     <p>{{ item.description }}</p>
-
+    <div style="text-align: center;">
+    {% for link in item.links %}
+      <a href={{ link.value }} target="_blank">{{ link.name }}</a>{% if link != item.links.last %}  |  {% endif %}
+    {% endfor %}
+      </div>
   </div> <!-- End Project Info -->
 {% endfor %}  <!-- end other stuff -->
 

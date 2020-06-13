@@ -2,23 +2,63 @@
 layout: default
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
+<script>
+window.onload = (event) => {
+  var errMsg = document.getElementById("errmsg");
+  var incMsg = document.getElementById("incMsg");
+  var squiqly = document.getElementById("squiq");
+
+  var curURL = window.location.pathname.trim().slice(2) + ".h";
+
+  errMsg.innerHTML = "<b>main.cpp:404: <span style=\"color: #ff0000\">fatal error:</span> '" 
+                      + curURL + "' file not found</b>";
+
+  incMsg.innerHTML = "#include \"" + curURL + "\"";
+
+  squiq.innerHTML = "         ^";
+
+  for(var i = 0; i < curURL.length; i++)
+  {
+    squiq.innerHTML += "~";
   }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
+  //squiq.innerHTML = ""
+};
+</script>
+
+
+<style>
+  .errorBlock {
+    text-align: left;
+    padding-left: 10px;
+  }
+  #squiq {
+    white-space:pre;
+    color:#859900;
+  }
+  .blink_me {
+    animation: blinker 1s infinite;
+    background-color: grey;
+    white-space:pre;
+
+  }
+
+  @keyframes blinker {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
   }
 </style>
 
-<div class="container">
-  <h1>404</h1>
+<div class="errorBlock">
+  <p style="font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;">
+  ben@production:~ $ clang++ main.cpp</p>
+  <p id="errmsg" style="font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;"></p>
+  <p style="font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;" id="incMsg">#include ""</p>
+  <p style="font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;" id="squiq">         ^~~~~~</p>
+  <p style="font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;">1 error generated.</p>
+  
+  <p style="font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;">
+    ben@production:~ $ <span class="blink_me"> </span></p>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
 </div>
