@@ -2,17 +2,19 @@
 
 body {
   overflow-x:hidden;
-  background-color: white;
+  background-color: #292929;
 }
 
 h1, h2, h3, h4 {
   font-family: 'Open Sans', serif;
   opacity: 0.95;
+  color: white;
 }
 
 p, ul, li {
   font-family: 'Open Sans', sans-serif;
   opacity: 0.9;
+  color: white;
 }
 
 #post-preview {
@@ -30,8 +32,9 @@ p, ul, li {
 div.container {
     top: 0;
     width: 100%;
-    position: sticky;
-    background-color: white;
+    /* position: sticky; */
+    background-color: #292929;
+
     z-index: 500;
     font-family: Raleway;
     margin: 0 auto;
@@ -95,7 +98,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after {
 
 /* Link styles */
 a {
-  color: #211eb4;
+  color: #84c9fb;
   font-family: 'Open Sans', sans-serif;
   opacity: 0.8;
   z-index: 10; /*or whatever number that is a positive real number. */
@@ -104,11 +107,11 @@ a {
 }
 
 a:hover {
-  color: #d60568;
+  color: #B00020;
 }
 
 a:active {
-  color: #d60568;
+  color: #B00020;
 }
 
 /* Footer */
@@ -124,7 +127,7 @@ footer img {
   height: 28px;
   padding-left: 5px;
   padding-right: 5px;
-  filter: brightness(0%) opacity(70%);
+  filter: brightness(100%) opacity(70%);
 }
 
 /*
@@ -134,7 +137,7 @@ https://perishablepress.com/perfect-pre-tags/
 code, samp, kbd {
     font-family: "Courier New", Courier, monospace, sans-serif;
     text-align: left;
-    color: #555;
+    color: #84c9fb;
 }
 pre code {
 	line-height: 1.6em;
