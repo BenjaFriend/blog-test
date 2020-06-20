@@ -2,19 +2,21 @@
 
 body {
   overflow-x:hidden;
-  background-color: #292929;
+  background-color: #272727;
+  margin: 0px;
 }
 
 h1, h2, h3, h4 {
   font-family: 'Open Sans', serif;
-  opacity: 0.95;
-  color: white;
+  opacity: 1.0;
+  color: #ffffff;
 }
 
 p, ul, li {
   font-family: 'Open Sans', sans-serif;
   opacity: 0.9;
   color: white;
+  font-size: 16px;
 }
 
 #post-preview {
@@ -29,19 +31,23 @@ p, ul, li {
 
 /** CSS transitions from here: https://codepen.io/EvyatarDa/pen/waKXMd */
 
+/** Header container at the top */
 div.container {
     top: 0;
     width: 100%;
     /* position: sticky; */
-    background-color: #292929;
+    background-color: #393939;
 
     z-index: 500;
     font-family: Raleway;
-    margin: 0 auto;
-  	padding-top: 2em;
-    padding-bottom: 2em;
-  	text-align: center;
-    border-bottom: 3px solid rgba(0, 0, 0, .9);
+    margin: 0;
+  	padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    
+    /** Black border at the bottom */
+    /* border-bottom: 3px solid;
+    border-bottom-color: #747474; */
 }
 
 div.container a {
@@ -55,13 +61,14 @@ div.container a {
     cursor: pointer;
 }
 
+/** The little bars that come up when you hover over the header links */
 div.borderXwidth a:before, div.borderXwidth a:after {
     position: absolute;
     opacity: 0;
     width: 0%;
     height: 2px;
     content: '';
-    background: #000;
+    background: #ABBF0F;
     transition: all 0.3s;
 }
 
@@ -98,7 +105,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after {
 
 /* Link styles */
 a {
-  color: #84c9fb;
+  color: #048ABF;
   font-family: 'Open Sans', sans-serif;
   opacity: 0.8;
   z-index: 10; /*or whatever number that is a positive real number. */
@@ -107,11 +114,11 @@ a {
 }
 
 a:hover {
-  color: #B00020;
+  color: #03A696;
 }
 
 a:active {
-  color: #B00020;
+  color: #03A696;
 }
 
 /* Footer */
@@ -166,16 +173,16 @@ pre {
 /* Tablet kinda adjustments */
 @media screen and (max-width: 910px) {
     #mainContent {
-        width: 100%;
-        padding-left: 5px;
-        padding-right: 5px;
-        margin-left: 0;
-        margin-right: 0;
+        width: 95%;
     }
-/* 
-    #mainContent img {
-        width: 300px;
-    } */
+
+  #projectBanner {
+    width: 300px;
+  }
+
+  .feat-img {
+    width: 270px;
+  }
 }
 
 /** Moible adjustments */
@@ -190,13 +197,16 @@ pre {
     }
 
     #mainContent {
-        width: 100%;
+        width: 95%;
         padding-left: 5px;
         padding-right: 5px;
     }
 
-    #mainContent img {
-        width: 270px;
+    #projectBanner {
+      width: 270px;
+    }
+    .feat-img {
+      width: 270px;
     }
     
     footer img {

@@ -8,6 +8,8 @@ categories:
   - ue4
   - General
   - tools
+featured-image: media\posts\widget_reflector\WidgetReflectExample.gif
+featured-image-alt: Widget Reflector example gif
 ---
 
 The Widget Reflector is a tool in Unreal Engine that shows the you how 
