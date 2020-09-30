@@ -1,5 +1,4 @@
 ---
-id: 353
 title: 'Prototype of &#8220;Ergo Witness&#8221;'
 date: 2017-03-10T22:33:08+00:00
 author: Ben Hoffman

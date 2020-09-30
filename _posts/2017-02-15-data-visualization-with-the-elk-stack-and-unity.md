@@ -1,5 +1,4 @@
 ---
-id: 284
 title: Data Visualization with the ELK stack and Unity
 date: 2017-02-15T06:36:33+00:00
 author: Ben Hoffman

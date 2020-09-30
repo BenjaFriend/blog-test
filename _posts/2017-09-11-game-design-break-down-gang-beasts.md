@@ -1,5 +1,4 @@
 ---
-id: 449
 title: 'Game Design Break Down: Gang Beasts'
 date: 2017-09-11T07:22:34+00:00
 author: Ben Hoffman

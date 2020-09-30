@@ -1,5 +1,4 @@
 ---
-id: 357
 title: What makes Overwatch so good?
 date: 2017-03-18T10:55:18+00:00
 author: Ben Hoffman

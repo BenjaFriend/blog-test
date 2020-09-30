@@ -1,5 +1,4 @@
 ---
-id: 497
 title: 'Game Design Break Down: Crawl'
 date: 2017-09-18T11:43:13+00:00
 author: Ben Hoffman

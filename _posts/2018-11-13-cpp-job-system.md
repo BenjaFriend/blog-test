@@ -1,5 +1,4 @@
 ---
-id: 822
 title: C++ 11 Job System
 date: 2018-11-13T02:16:02+00:00
 author: Ben Hoffman

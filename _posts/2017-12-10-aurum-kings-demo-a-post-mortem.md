@@ -1,5 +1,4 @@
 ---
-id: 567
 title: 'Aurum Kings Demo &#8211; A Post Mortem'
 date: 2017-12-10T03:54:21+00:00
 author: Ben Hoffman

@@ -8,7 +8,7 @@ window.onload = (event) => {
   var incMsg = document.getElementById("incMsg");
   var squiqly = document.getElementById("squiq");
 
-  var curURL = window.location.pathname.trim().slice(2) + ".h";
+  var curURL = window.location.pathname.trim().slice(1) + ".h";
 
   errMsg.innerHTML = "<b>main.cpp:404: <span style=\"color: #ff0000\">fatal error:</span> '" 
                       + curURL + "' file not found</b>";
@@ -21,7 +21,6 @@ window.onload = (event) => {
   {
     squiq.innerHTML += "~";
   }
-  //squiq.innerHTML = ""
 };
 </script>
 
