@@ -7,10 +7,9 @@ categories:
   - General
   - Reviews
 tags:
-  - games
+  - game
+background: '/media/posts/overwatch/ow_sombra.jpeg'
 ---
-
-![Deploy Key Screen]({{ site.url }}\media\posts\overwatch\OW-300x131.png)
 
 
 _Overwatch_ is an award winning, unbelievably popular Esports title. But why? This is my take on some of the reasons why.
@@ -29,7 +28,7 @@ There is a constant reward to the player. Even if a player is doing poorly, they
 
 ##### Meta Game
 
-The meta game. There is a cyclical cycle of which here is &#8220;on top&#8221; in the current patch. This is very similar to League of Legends that regard, where with very minor patch tweaks, a lot of the community will shift towards one more powerful character. This then leads to people having to find a way to counter said character in new and interesting ways. The perfect unbalance.
+The meta game. There is a cyclical cycle of which hero is &#8220;on top&#8221; in the current patch. This is very similar to League of Legends that regard, where with very minor patch tweaks, a lot of the community will shift towards one more powerful character. This then leads to people having to find a way to counter said character in new and interesting ways. The perfect unbalance.
 
 ##### Unique Characters
 
