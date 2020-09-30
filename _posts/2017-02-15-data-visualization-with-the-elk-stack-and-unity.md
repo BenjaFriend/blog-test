@@ -1,5 +1,4 @@
 ---
-id: 284
 title: Data Visualization with the ELK stack and Unity
 date: 2017-02-15T06:36:33+00:00
 author: Ben Hoffman
@@ -8,10 +7,6 @@ categories:
   - General
   - project
 ---
-
-
-![Deploy Key Screen]({{ site.url }}\media\posts\elk\ELK-300x100.png)
-
 
 Not many people use Unity(or really any game engine) for data visualization. I think that the main reason for this is that Unity is not marketed as a data visualization tool, and there is already a large market for such things that companies would rather use. I am currently exploring the different possibilities for interactive data visualization using Unity and the [Logstash](https://www.elastic.co/products/logstash) pipeline. Logstash is just one part of something much bigger called the ELK stack(Elasticsearch, Logastah, and Kibana).
 

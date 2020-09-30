@@ -1,5 +1,4 @@
 ---
-id: 821
 title: Aurum Kings Development Post Mortem
 date: 2018-08-08T02:16:02+00:00
 author: Ben Hoffman

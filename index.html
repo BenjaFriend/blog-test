@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: home
+background: '/media/ue5_b.jpg'
 ---
 
 <div id="about">
-
-  <h1>Ben Hoffman</h1>
   <p>
     Hey! I'm Ben Hoffman, Engine Programmer at Epic Games. I have 
     always had a passion for video games, so I decided to make a 
@@ -57,7 +56,7 @@ layout: default
     <img id="projectBanner" src={{ item.image }} />
 
     <p>{{ item.description }}</p>
-    <div style="text-align: center;">
+    <div id="projectLinks" style="text-align: center;">
     {% for link in item.links %}
       <a href={{ link.value }} target="_blank">{{ link.name }}</a>{% if link != item.links.last %}  |  {% endif %}
     {% endfor %}

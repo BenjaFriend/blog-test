@@ -1,5 +1,4 @@
 ---
-id: 442
 title: Ergo Witness is now open source!
 date: 2017-05-16T03:59:30+00:00
 author: Ben Hoffman

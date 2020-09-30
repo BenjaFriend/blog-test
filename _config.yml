@@ -16,16 +16,18 @@
 title: Ben Hoffman
 email: benjmain.hoffman.dev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Game Developer
+  Engine Programmer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "//benhoffman.tech"
 # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: BenjaFriend
-github_username:  benjafriend
+github_username: benjafriend
+linkedin_username: ben-hoffman
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
+theme: jekyll-theme-clean-blog
 plugins_dir:
   - jekyll-feed
 
